@@ -1,3 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    font-family: 'Open Sans' sans-serif;
+}
+
 body {
-    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ACD5DE;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #918361;
+    background-color: #DECCA0;
+    color: #91827E;
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+button.decrementar{
+    color: red;
+}
+
+#counter {
+    display: flex;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
 }
